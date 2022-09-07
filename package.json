@@ -1,0 +1,28 @@
+{
+  "name": "@nuxt-electron/nuxt-electron",
+  "description": "The all-in-one starter kit for cross platform apps.",
+  "version": "1.0.0",
+  "author": "Iman Abbasi <ilvlanAbbasi@gmail.com>",
+  "main": "electron/main.js",
+  "scripts": {
+    "nuxt:build": "nuxt build",
+    "nuxt:dev": "nuxt dev",
+    "nuxt:generate": "nuxt generate",
+    "nuxt:preview": "nuxt preview",
+    "nuxt:postinstall": "nuxt prepare",
+    "electron:dev": "electron .",
+    "electron:build": "electron-builder",
+    "electron:build-win": "electron-builder --win",
+    "electron:build-linux": "electron-builder --linux",
+    "electron:build-mac": "electron-builder --mac"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.9",
+    "electron": "^20.1.1",
+    "electron-builder": "^23.3.3"
+  },
+  "dependencies": {
+    "electron-serve": "^1.1.0",
+    "electron-store": "^8.1.0"
+  }
+}

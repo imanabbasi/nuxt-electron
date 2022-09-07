@@ -1,0 +1,9 @@
+appId: com.example.nuxt-electron-together
+productName: Nuxt + Electron together
+copyright: Copyright © 2020 Iman Abbasi
+directories:
+  output: app
+  buildResources: public
+files:
+  - from: .
+publish: null
